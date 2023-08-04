@@ -1,0 +1,9 @@
+@use "global" as *;
+
+.footer {
+    background: rgba(65, 105, 225, 1);
+
+    @include mq(md) {
+        // 
+    }
+}

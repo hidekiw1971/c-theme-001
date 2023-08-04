@@ -1,0 +1,10 @@
+@use "global" as *;
+
+.main {
+    background: rgba(255, 215, 0, 1);
+
+    @include mq(md) {
+        flex: 2;
+        // 
+    }
+}

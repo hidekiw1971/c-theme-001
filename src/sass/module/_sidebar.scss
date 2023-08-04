@@ -1,0 +1,10 @@
+@use "global" as *;
+
+.sidebar {
+    background: rgba(60, 179, 113, 1);
+
+    @include mq(md) {
+        flex: 1;
+        // 
+    }
+}
