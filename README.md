@@ -1,4 +1,8 @@
-# CodeUps-WP-DartSass 
+# wordpress theme
+- c-theme-001 v0.1
+- https://c-0153.wtb.cfbx.jp/
+
+# WP-DartSass 
 DartSass対応WordPress構築環境を含むgulpファイル
 
 ## 環境
