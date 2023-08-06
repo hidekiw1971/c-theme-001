@@ -1,7 +1,9 @@
 @use "global" as *;
 
 .sidebar {
+    display: block;
     background: rgba(60, 179, 113, 1);
+    padding: 0 rem(20);
 
     @include mq(md) {
         flex: 1;

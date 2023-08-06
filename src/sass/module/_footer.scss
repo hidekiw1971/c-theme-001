@@ -1,7 +1,9 @@
 @use "global" as *;
 
 .footer {
+    display: block;
     background: rgba(65, 105, 225, 1);
+    padding: 0 rem(20);
 
     @include mq(md) {
         // 

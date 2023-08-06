@@ -1,9 +1,21 @@
 @use "global" as *;
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
   background: rgba(255, 105, 180, 1);
+  padding: 0 rem(20);
 
   @include mq(md) {
     // 
   }
+}
+
+.header a {
+  display: block;
+  font-size: rem(16);
 }

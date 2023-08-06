@@ -18,10 +18,20 @@
   <meta property="og:description" content="" />
   <!-- ファビコン -->
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/common/favicon.ico" />
-  <?php wp_head(); ?>
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer="" src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
+  <?php
+  // wp_head();
+  ?>
 </head>
 
 
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
-  <header class="header">ヘッダー（静的サイト検証）</header>
+  <header class="header">
+    <h1><a href="index.html">ヘッダー（動的サイト検証）</a></h1>
+    <button class="js-header-menu">
+      <span></span>
+    </button>
+  </header>

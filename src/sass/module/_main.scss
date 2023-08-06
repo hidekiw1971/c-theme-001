@@ -1,7 +1,10 @@
 @use "global" as *;
 
 .main {
+    display: block;
     background: rgba(255, 215, 0, 1);
+    height: 200dvh;
+    padding: 0 rem(20);
 
     @include mq(md) {
         flex: 2;
