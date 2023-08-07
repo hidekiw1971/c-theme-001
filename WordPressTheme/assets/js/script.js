@@ -1,5 +1,8 @@
+"use strict";
 
-jQuery(function ($) { // この中であればWordpressでも「$」が使用可能になる
+jQuery(function ($) {
+  // この中であればWordpressでも「$」が使用可能になる
+
   // start
   //ドロワーメニュー
   $(".js-header-menu").click(function () {
