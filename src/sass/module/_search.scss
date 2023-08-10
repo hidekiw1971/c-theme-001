@@ -1,0 +1,25 @@
+@use "global" as *;
+
+form.search-form input,
+button.search-form-button {
+    padding: rem(10);
+}
+
+form.search-form {
+
+    // 
+    @include mq(md) {
+        display: flex;
+    }
+}
+
+form.search-form input {
+    display: block;
+    flex: 3;
+    margin-right: rem(5);
+}
+
+button.search-form-button {
+    display: block;
+    flex: 1;
+}

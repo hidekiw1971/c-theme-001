@@ -1,5 +1,8 @@
 # wordpress theme
 - c-theme-001 v0.1
+- 静的ポートフォリオ
+- https://c-0152.wtb.cfbx.jp/
+- 動的ポートフォリオ
 - https://c-0153.wtb.cfbx.jp/
 
 # WP-DartSass 

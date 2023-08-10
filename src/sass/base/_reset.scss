@@ -62,8 +62,8 @@ article>*+* {
 }
 
 /* Inherit fonts for inputs and buttons */
-input,
-button,
+// input,
+// button,
 textarea,
 select {
   font: inherit;
@@ -76,8 +76,8 @@ img:not([alt]) {
 
 
 /* フォームリセット */
-input,
-button,
+// input,
+// button,
 select,
 textarea {
   -webkit-appearance: none;
@@ -94,10 +94,10 @@ textarea {
   resize: vertical;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
-  display: none;
-}
+// input[type="checkbox"],
+// input[type="radio"] {
+//   display: none;
+// }
 
 input[type="submit"],
 input[type="button"],
