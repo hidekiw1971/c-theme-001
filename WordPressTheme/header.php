@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
   <header class="header">
-    <h1><a href="index.html">ヘッダー（動的サイト検証）！</a></h1>
+    <h1><a href="<?php home_url(); ?>">ヘッダー（動的サイト検証）！</a></h1>
     <button class="js-header-menu">
       <span></span>
     </button>
