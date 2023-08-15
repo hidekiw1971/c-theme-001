@@ -1,6 +1,6 @@
 @use "global" as *;
 
-button.js-header-menu {
+button.js-drawer-menu {
     display: flex;
     align-items: center;
     width: rem(30);
@@ -14,7 +14,7 @@ button.js-header-menu {
     }
 }
 
-button.js-header-menu span {
+button.js-drawer-menu span {
     display: block;
     width: 100%;
     height: rem(2);
@@ -22,7 +22,7 @@ button.js-header-menu span {
     position: relative;
 }
 
-button.js-header-menu span::before {
+button.js-drawer-menu span::before {
     content: "";
     display: block;
     width: 100%;
@@ -33,7 +33,7 @@ button.js-header-menu span::before {
     transform: translate(-50%, -8px);
 }
 
-button.js-header-menu span::after {
+button.js-drawer-menu span::after {
     content: "";
     display: block;
     width: 100%;
@@ -56,4 +56,23 @@ button.open span::before {
 button.open span::after {
     transform: rotate(-45deg);
     left: 0;
+}
+
+div.js-drawer-menu-list {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(255, 255, 255, 1);
+    margin-top: rem(50);
+
+    @include mq(md) {
+        display: none;
+    }
+}
+
+div.js-drawer-menu-list-open {
+    display: block;
 }

@@ -54,5 +54,46 @@
     </aside>
 </container>
 <!-- /front-page.php -->
+<footer class="footer"><small>&copy; 20yy xxxx.</small></footer>
+<!-- drawer menu -->
+<div class="js-drawer-menu-open">
+    <div class="sidebar-list category">
+        <p>カテゴリー一覧</p>
+        <ul>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+        </ul>
+    </div>
+    <div class="sidebar-list tag">
+        <p>タグ一覧</p>
+        <ul>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+        </ul>
+    </div>
+    <div class="sidebar-list archive">
+        <p>アーカイブ一覧</p>
+        <ul>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+        </ul>
+    </div>
+    <div class="sidebar-list contents">
+        <p>コンテンツ一覧</p>
+        <ul>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+            <li><a href="#">検証</a></li>
+        </ul>
+    </div>
+</div>
+<!-- /drawer menu -->
 
 <?php get_footer(); ?>
