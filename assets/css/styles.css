@@ -255,9 +255,11 @@ button.open span::after {
 div.js-drawer-menu-list {
 	background: rgb(255, 255, 255);
 	display: none;
+	height: 100%;
 	left: 0;
-	margin-top: 50px;
-	margin-top: 3.125rem;
+	overflow: scroll;
+	padding-top: 50px;
+	padding-top: 3.125rem;
 	position: fixed;
 	right: 0;
 	top: 0;
@@ -271,7 +273,7 @@ div.js-drawer-menu-list-open {
 .main {
 	background: rgb(255, 215, 0);
 	display: block;
-	height: 200dvh;
+	height: 100dvh;
 	padding: 0 20px;
 	padding: 0 1.25rem;
 }

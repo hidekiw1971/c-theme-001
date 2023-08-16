@@ -60,13 +60,15 @@ button.open span::after {
 
 div.js-drawer-menu-list {
     display: none;
+    height: 100%;
+    overflow: scroll;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
     background: rgba(255, 255, 255, 1);
-    margin-top: rem(50);
+    padding-top: rem(50);
 
     @include mq(md) {
         display: none;

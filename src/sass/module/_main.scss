@@ -3,7 +3,7 @@
 .main {
     display: block;
     background: rgba(255, 215, 0, 1);
-    height: 200dvh;
+    height: 100dvh;
     padding: 0 rem(20);
 
     @include mq(md) {
