@@ -10,6 +10,5 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     // $("html").toggleClass("is-fixed");
 
   });
-
   // end
 });
